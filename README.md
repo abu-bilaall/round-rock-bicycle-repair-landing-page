@@ -1,0 +1,1 @@
+This is my second design of the 12 Landing Page Free Designs available here - https://www.figma.com/design/6BOKqcz8vVaEwww35EUSJ5/12-FREE-Landing-Pages-(Community)?node-id=0-1&node-type=canvas&t=oFneEkaXufzT3GmO-0

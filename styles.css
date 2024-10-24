@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    height: 840px;
+    display: flex;
+    background-image: url(./images/background-image.png);
+}
+
+#right {
+    margin-left: auto;
+}
+
+/* #header-image-container {
+    height: 1399px;
+    width: 1399px;
+    padding-left: 45px;
+    background-color: #E15252;
+    clip-path: ellipse(90% 100% at 90% 50%);
+} */
+#header-image-container {
+    background-color: red;
+    clip-path: ellipse(90% 100% at 90% 50%);
+    height: inherit;
+}
+#header-image-container img {
+    width: 840px;
+    height: auto;
+    clip-path: ellipse(90% 100% at 90% 50%);
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-name {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#main-name {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#name-contd {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h3, h2 {
+    margin: 0;
+}
+
+#header-texts {
+    width: 473px;
+    height: 259px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    width: 698px;
+    height: 292px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.services-text {
+    font-weight: 700;
+    font-size: 64px;
+    color: #333333;
+}
+
+.services-subtext {
+    font-weight: 500;
+    font-size: 18px;
+    color: #e15252;
+}
+
+.image-container {
+    border-radius: 50%;
+    background-color: rgb(225, 82, 82);
+    width: 224px;
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    border-radius: 50%;
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+}
+
+.item-00 {
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.item-text {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.about-item {
+    font-size: 14px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}

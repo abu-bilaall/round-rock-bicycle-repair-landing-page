@@ -4,6 +4,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     height: 840px;
     display: flex;
@@ -135,4 +139,97 @@ h3, h2 {
     align-items: center;
     gap: 16px;
     margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.discount-button {
+    width: 208px;
+    height: 46px;
+    border: none;
+    border-radius: 42px;
+    background-color: #e15252;
+    box-shadow: 0 4px 8px rgba(225, 82, 82, 0.5);
+}
+
+.discount-button a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    height: 840px;
+    background-color: #e15252;
+    /* background-image: url(./images/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding-top: 16px;
+    margin-top: 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+.about-text {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.about-subtext {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.about-card {
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+    background-color: white;
+    width: 1200px;
+    height: 648px;
+    margin-top: auto;
+
+    display: flex;
+    gap: 32px;
+}
+
+.about-card img {
+    width: 496px;
+    height: auto;
+    border-top-left-radius: 42px;
+}
+
+.about-company {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+    align-self: center;
+}
+
+.company-name {
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.about-company img {
+    width: 90px;
+    height: 2px;
+}
+
+.about-company-text {
+    font-weight: 500;
+    font-size: 14px;
+    /* text-align: justify; */
 }

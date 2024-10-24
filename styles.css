@@ -233,3 +233,91 @@ h3, h2 {
     font-size: 14px;
     /* text-align: justify; */
 }
+
+.contact-section {
+    height: 698px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.contact-us {
+    background-color: #e15252;
+    border-bottom-left-radius: 42px;
+    border-bottom-right-radius: 42px;
+    width: 1200px;
+    height: 648px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 64px;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.bg {
+    width: 374px;
+    height: 56px;
+    border: none;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.outline {
+    width: 168px;
+    height: 56px;
+    border: 3px solid white;
+    border-radius: 35px;
+}
+
+.moar-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.email-address, 
+.phone-number, 
+.house-address {
+    color: white;
+}
+
+.contact-contents {
+    background-color: whitesmoke;
+    height: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.footer {
+    height: 92px;
+    background-color: #c4c4c4;
+}
+
+.email,
+.phone,
+.address {
+    display: flex;
+    gap: 8px;
+}
+
+.icons {
+    width: 18px;
+    height: auto;
+}
